@@ -1,0 +1,8 @@
+¿Cómo podemos ayudarte?
+Escribe:
+
+*1* - Para ver el menú
+*2* - Para reservar una mesa
+*3* - Para hacer consultas
+
+*0* - Para terminar conversación
