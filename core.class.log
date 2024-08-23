@@ -2,25 +2,25 @@
   key: {
     remoteJid: '50664869847@s.whatsapp.net',
     fromMe: false,
-    id: '3AE08F9AE87AE75C0D67',
+    id: '3EB0A3B1022A8BCDAB1CDF',
     participant: undefined
   },
-  messageTimestamp: 1723691344,
+  messageTimestamp: 1724391184,
   pushName: 'Ignacio B',
   broadcast: false,
   message: Message {
-    conversation: 'H',
+    conversation: '2',
     messageContextInfo: MessageContextInfo {
       deviceListMetadata: [DeviceListMetadata],
       deviceListMetadataVersion: 2
     }
   },
-  body: 'H',
+  body: '2',
   from: '50664869847'
 }
 [QUEUE_SE_ENVIO]:  {
-  ref: 'ans_6e3ba763-e676-43fc-a962-91bccd7ceea1',
-  keyword: 'key_55ad3440-c558-4e0e-b4df-0dc5ac1f0bf0',
+  ref: 'ans_94fbf93e-e6b0-4660-b254-891f755183d6',
+  keyword: 'key_89aca123-71ce-4eee-a29e-c073eb7e42d7',
   answer: 'Te damos la bienvenida *La Cazuela Dorada*!',
   options: {
     media: null,
@@ -34,11 +34,11 @@
     keyword: {},
     callback: false
   },
-  refSerialize: 'efb3147078b8fb25503c6f6ef2f93fc3'
+  refSerialize: '4ad30f944e1c7cf0b8a69c4cabff08fe'
 }
 [QUEUE_SE_ENVIO]:  {
-  ref: 'ans_c49f99ac-62d2-4d3b-90a8-fb56b0d0d96d',
-  keyword: 'ans_6e3ba763-e676-43fc-a962-91bccd7ceea1',
+  ref: 'ans_4be8aa36-c1ee-4b53-bd90-69cde39a04f7',
+  keyword: 'ans_94fbf93e-e6b0-4660-b254-891f755183d6',
   answer: '__call_action__',
   options: {
     media: null,
@@ -52,71 +52,153 @@
     keyword: {},
     callback: true
   },
-  refSerialize: '23577249b08ced64a25fe53559585f9f'
+  refSerialize: '9ce4002c72564a08d6e981fd3cd9a330'
 }
 [handleMsg]:  {
   key: {
     remoteJid: '50664869847@s.whatsapp.net',
     fromMe: false,
-    id: '3AF151F072318DF5AB02',
+    id: '3EB046206445B3FBB91003',
     participant: undefined
   },
-  messageTimestamp: 1723691353,
+  messageTimestamp: 1724391187,
   pushName: 'Ignacio B',
   broadcast: false,
   message: Message {
-    conversation: '3',
+    conversation: '2',
     messageContextInfo: MessageContextInfo {
       deviceListMetadata: [DeviceListMetadata],
       deviceListMetadataVersion: 2
     }
   },
-  body: '3',
+  body: '2',
   from: '50664869847'
 }
 [handleMsg]:  {
   key: {
     remoteJid: '50664869847@s.whatsapp.net',
     fromMe: false,
-    id: '3A77B3A75FF058314CDB',
+    id: '3EB0D203A5F6F424B7CD42',
     participant: undefined
   },
-  messageTimestamp: 1723691363,
+  messageTimestamp: 1724391191,
   pushName: 'Ignacio B',
   broadcast: false,
   message: Message {
-    conversation: 'Como es uno más uno',
+    conversation: '23 de agosto',
     messageContextInfo: MessageContextInfo {
       deviceListMetadata: [DeviceListMetadata],
       deviceListMetadataVersion: 2
     }
   },
-  body: 'Como es uno más uno',
-  from: '50664869847'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '50664869847@s.whatsapp.net',
-    fromMe: false,
-    id: '3AAB4B199CE2082AC1B1',
-    participant: undefined
-  },
-  messageTimestamp: 1723691372,
-  pushName: 'Ignacio B',
-  broadcast: false,
-  message: Message {
-    conversation: 'En nada',
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    }
-  },
-  body: 'En nada',
+  body: '23 de agosto',
   from: '50664869847'
 }
 [QUEUE_SE_ENVIO]:  {
-  ref: 'ans_6e3ba763-e676-43fc-a962-91bccd7ceea1',
-  keyword: 'key_55ad3440-c558-4e0e-b4df-0dc5ac1f0bf0',
+  ref: 'ans_f10c03c8-6787-495a-88b8-f6a2f86d4635',
+  keyword: 'ans_956db605-0820-45dc-9d23-cf7a1bc11178',
+  answer: 'Por favor, proporciona los siguientes detalles para tu reserva en un solo mensaje, separados por comas:\n' +
+    '\n' +
+    '1. *Nombre completo*\n' +
+    '2. *Número de personas*\n' +
+    '3. *Horario de la reserva*\n' +
+    '\n' +
+    'Ejemplo: Juan Pérez, 4 personas, 10:00',
+  options: {
+    media: null,
+    buttons: [],
+    capture: true,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: '3cf1e3428747ab07c47058582163bd56'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '50664869847@s.whatsapp.net',
+    fromMe: false,
+    id: '3EB0CDA207797389D644CA',
+    participant: undefined
+  },
+  messageTimestamp: 1724391197,
+  pushName: 'Ignacio B',
+  broadcast: false,
+  message: Message {
+    conversation: 'Juan Pérez, 4 personas, 10:00',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'Juan Pérez, 4 personas, 10:00',
+  from: '50664869847'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_e53c4a99-0e7b-4d43-bd24-59df38e489d6',
+  keyword: 'ans_f10c03c8-6787-495a-88b8-f6a2f86d4635',
+  answer: 'Responde **Sí** para confirmar o **No** para cancelar.',
+  options: {
+    media: null,
+    buttons: [],
+    capture: true,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: 'e9df9fd7697a5dcb10f29629e2878fc6'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '50664869847@s.whatsapp.net',
+    fromMe: false,
+    id: '3EB05D23C42130F8256DB3',
+    participant: undefined
+  },
+  messageTimestamp: 1724391256,
+  pushName: 'Ignacio B',
+  broadcast: false,
+  message: Message {
+    conversation: 'no',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'no',
+  from: '50664869847'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '50664869847@s.whatsapp.net',
+    fromMe: false,
+    id: '3EB0A95DCEDEFA77CE42BB',
+    participant: undefined
+  },
+  messageTimestamp: 1724391260,
+  pushName: 'Ignacio B',
+  broadcast: false,
+  message: Message {
+    conversation: '2',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: '2',
+  from: '50664869847'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_94fbf93e-e6b0-4660-b254-891f755183d6',
+  keyword: 'key_89aca123-71ce-4eee-a29e-c073eb7e42d7',
   answer: 'Te damos la bienvenida *La Cazuela Dorada*!',
   options: {
     media: null,
@@ -130,11 +212,11 @@
     keyword: {},
     callback: false
   },
-  refSerialize: 'efb3147078b8fb25503c6f6ef2f93fc3'
+  refSerialize: '4ad30f944e1c7cf0b8a69c4cabff08fe'
 }
 [QUEUE_SE_ENVIO]:  {
-  ref: 'ans_c49f99ac-62d2-4d3b-90a8-fb56b0d0d96d',
-  keyword: 'ans_6e3ba763-e676-43fc-a962-91bccd7ceea1',
+  ref: 'ans_4be8aa36-c1ee-4b53-bd90-69cde39a04f7',
+  keyword: 'ans_94fbf93e-e6b0-4660-b254-891f755183d6',
   answer: '__call_action__',
   options: {
     media: null,
@@ -148,5 +230,181 @@
     keyword: {},
     callback: true
   },
-  refSerialize: '23577249b08ced64a25fe53559585f9f'
+  refSerialize: '9ce4002c72564a08d6e981fd3cd9a330'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '50664869847@s.whatsapp.net',
+    fromMe: false,
+    id: '3EB0AC512C1BB1F4040B36',
+    participant: undefined
+  },
+  messageTimestamp: 1724391269,
+  pushName: 'Ignacio B',
+  broadcast: false,
+  message: Message {
+    conversation: '1',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: '1',
+  from: '50664869847'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '50664869847@s.whatsapp.net',
+    fromMe: false,
+    id: '3EB04F2728C8168D819466',
+    participant: undefined
+  },
+  messageTimestamp: 1724391307,
+  pushName: 'Ignacio B',
+  broadcast: false,
+  message: Message {
+    conversation: 'si',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'si',
+  from: '50664869847'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '50664869847@s.whatsapp.net',
+    fromMe: false,
+    id: '3EB057E87939851DB363C0',
+    participant: undefined
+  },
+  messageTimestamp: 1724391315,
+  pushName: 'Ignacio B',
+  broadcast: false,
+  message: Message {
+    conversation: 'que me ofreces?',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'que me ofreces?',
+  from: '50664869847'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_b122101f-a5e0-4bf1-862c-05c76a332b3b',
+  keyword: 'ans_fda21158-262b-4bc9-8b91-c8b194a2dd0a',
+  answer: 'Responde con *Sí* o *No* para continuar.',
+  options: {
+    media: null,
+    buttons: [],
+    capture: true,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: '9ac0942454f287f092ecb82427238992'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '50664869847@s.whatsapp.net',
+    fromMe: false,
+    id: '3EB01320482655FFA07434',
+    participant: undefined
+  },
+  messageTimestamp: 1724391326,
+  pushName: 'Ignacio B',
+  broadcast: false,
+  message: Message {
+    conversation: 'si',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'si',
+  from: '50664869847'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '50664869847@s.whatsapp.net',
+    fromMe: false,
+    id: '3EB09815CE8C5535E97FC6',
+    participant: undefined
+  },
+  messageTimestamp: 1724391341,
+  pushName: 'Ignacio B',
+  broadcast: false,
+  message: Message {
+    conversation: 'quiero un flan de coco',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'quiero un flan de coco',
+  from: '50664869847'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_b122101f-a5e0-4bf1-862c-05c76a332b3b',
+  keyword: 'ans_fda21158-262b-4bc9-8b91-c8b194a2dd0a',
+  answer: 'Responde con *Sí* o *No* para continuar.',
+  options: {
+    media: null,
+    buttons: [],
+    capture: true,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: '9ac0942454f287f092ecb82427238992'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '50664869847@s.whatsapp.net',
+    fromMe: false,
+    id: '3EB0655B73D738305362EB',
+    participant: undefined
+  },
+  messageTimestamp: 1724391348,
+  pushName: 'Ignacio B',
+  broadcast: false,
+  message: Message {
+    conversation: 'no',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'no',
+  from: '50664869847'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '50664869847@s.whatsapp.net',
+    fromMe: false,
+    id: '3EB08BF8A562FCFDBD5A29',
+    participant: undefined
+  },
+  messageTimestamp: 1724391360,
+  pushName: 'Ignacio B',
+  broadcast: false,
+  message: Message {
+    conversation: 'si',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'si',
+  from: '50664869847'
 }

@@ -1,1 +1,14 @@
-          
+
+
+========================
+*Reserva de Mesa*
+========================
+Número de reserva: 71d46aca-2f92-45d1-b0a9-fcb13aaeb750
+Fecha de creación: 21/8/2024 18:39:55
+Nombre: Juan Pérez
+Número de personas: 4 personas
+Día de la reserva: 22 de agosto
+Horario de la reserva: 16:00 - 17:00
+Mesa asignada: 1
+
+    
